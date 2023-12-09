@@ -38,7 +38,7 @@ function Signup() {
         setinputerrors(initialdata)
 
         if (username != "" && email != "" && password != "" && confirm != "" && password == confirm) {
-            const res = await axios.post(`https://accredian-backend-task-rho.vercel.app/user/signup`, { username: username, password: password, email: email })
+            const res = await axios.post(`https://accredian-backend-task-rho.vercel.app/user/signup`, { username: username, password: password, email: email, m_no: "9080908090" })
             console.log(res);
             if (res.data.data.success) {
                 localStorage.setItem('username', username)

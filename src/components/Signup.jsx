@@ -56,7 +56,7 @@ function Signup() {
     }
 
     return (
-        <div className='h-[75vh] w-[85%] sm:w-[70%] flex rounded shadow-xl'>
+        <div className='h-[85vh] w-[85%] sm:w-[70%] flex rounded shadow-xl'>
             <div className=' hidden min-[875px]:flex bg-[#0fc98a] h-[100%] rounded-l-xl w-[35%] p-4  flex-col justify-center items-center '>
                 <h1 className='  text-white font-bold text-xl lg:text-3xl'>Hello, Friends !</h1>
                 <div className=' bg-white h-[3px] w-[15%] my-2 rounded-xl' />

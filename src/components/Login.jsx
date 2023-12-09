@@ -28,7 +28,7 @@ function Login() {
       setpasserror("*password is required.")
     }
     if (username != "" && password != "") {
-      const res = await axios.post(`http://localhost:3000/user/login`, { username: username, password: password })
+      const res = await axios.post(`https://accredian-backend-task-rho.vercel.app/user/login`, { username: username, password: password })
       console.log(res);
       if (res.data.data.success) {
         localStorage.setItem('username', username)
